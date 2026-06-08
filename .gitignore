@@ -1,0 +1,15 @@
+# Mengabaikan file konfigurasi rahasia
+.env
+
+# Mengabaikan folder database lokal (ChromaDB / FAISS)
+chroma_db_puskesmas/
+faiss_index/
+
+# Mengabaikan dataset lokal berukuran besar
+data/
+
+# Mengabaikan cache python
+__pycache__/
+.pytest_cache/
+.env/
+venv/
